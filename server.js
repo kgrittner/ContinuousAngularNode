@@ -17,8 +17,8 @@ app.get('*', function(req, res){
 });
 
 // Tell app to listen for requests. 3000 = Port. But becuase were using cloud nine we do process.etc. http://c9.io
-//app.listen(process.env.PORT, process.env.IP);
-app.listen(3000);
+app.listen(process.env.PORT, process.env.IP);
+//app.listen(3000);
 
 
 
